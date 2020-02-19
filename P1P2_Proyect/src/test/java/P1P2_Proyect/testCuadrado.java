@@ -16,10 +16,19 @@ public class testCuadrado {
 	}
 	
 	@Test
+
 	public void testTriple() {
 		int x = 2;
 		int resultado = C.Triple(x);
 		assertEquals(resultado, 6);
+	}
+	@Test
+	public void testDoble() {
+		Clase1 C = new Clase1();
+		int x = 3;
+		int resultado = C.doble(x);
+		assertEquals(resultado,6);
+
 	}
 
 }
