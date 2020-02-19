@@ -7,4 +7,9 @@ public class Clase1 {
 		return x*x;
 	}
 	
+	public int doble(int x) {
+		
+		return x*2;
+	}
+	
 }
